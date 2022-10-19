@@ -18,15 +18,15 @@
       <h2>Building Projects!</h2>
       <nav>
         <ul>
-          <li>Meta</li>
-          <li>Work</li>
-          <li>Contact</li>
+          <li><a href="#meta"> Meta </a></li>
+          <li><a href="#work"> Work </a></li>
+          <li><a href="#contact"> Contact</a></li>
         </ul>
       </nav>
     </header>
     <!--Article naming because it has the most text-->
     <article>
-      <figure>
+      <figure id="meta">
         <h3>The Meta: The Low Down Show Down</h3>
         <img src=".assets/selfbw.jpg" alt="Self photo" />
         <p>
@@ -38,16 +38,35 @@
     </article>
     <section>
       <h3>My Work</h3>
-      <figure class="container1">
-        <a href="www.put14in.com">
-          <img src=".assets/Put14inLogo.png" alt="Project Logo" />
-        </a>
-        <figcaption class="text1">
-          <h4>Put14in</h4>
-        </figcaption>
-      </figure>
+      <!--Main holds the element for CSS Flexbox-->
+      <main id="work">
+        <figure class="container1">
+          <a href="www.put14in.com">
+            <img src=".assets/Put14inLogo.png" alt="Project Logo" />
+          </a>
+          <figcaption class="text1">
+            <h4>Put14in</h4>
+          </figcaption>
+        </figure>
+        <figure class="container2">
+          <a href="https://janorris65.github.io/First-Homework/">
+            <img src=".assets/webrename.jpeg" alt="Project Logo" />
+          </a>
+          <figcaption class="text2">
+            <h4>First HW</h4>
+          </figcaption>
+        </figure>
+        <figure class="container3">
+          <a href="www.put14in.com">
+            <img src=".assets/Put14inLogo.png" alt="Project Logo" />
+          </a>
+          <figcaption class="text3">
+            <h4>Put14in</h4>
+          </figcaption>
+        </figure>
+      </main>
     </section>
-    <footer>
+    <footer id="contact">
       <h3>Contact</h3>
     </footer>
   </body>

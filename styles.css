@@ -19,8 +19,7 @@ header {
 
 li {
   list-style-type: none;
-  border-style: ridge;
-  border-color: black;
+  border-style: inset;
   border-width: 0.25rem;
   padding: 0.5rem;
 }
@@ -44,8 +43,7 @@ article {
   padding: 2rem;
   height: 100%;
   max-width: 75%;
-  padding-bottom:10rem;
-  padding
+  padding-bottom: 10rem;
 }
 
 article figure h3 {
@@ -58,4 +56,72 @@ article figure img {
   max-width: 250px;
   float: left;
   margin-right: 25px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+section h3 {
+  padding: 0.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.container1 img {
+  max-height: 225px;
+  max-width: 275px;
+  position: relative;
+  border-style: inset;
+  border-width: 0.25rem;
+}
+
+.container1 img:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.container1 .text1 {
+  position: relative;
+  bottom: 25px;
+  left: 5px;
+}
+.container2 img {
+  max-height: 200px;
+  max-width: 250px;
+  position: relative;
+  border-style: inset;
+  border-width: 0.25rem;
+}
+
+.container2 img:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.container2 .text2 {
+  position: relative;
+  bottom: 25px;
+  left: 5px;
+}
+.container3 img {
+  max-height: 200px;
+  max-width: 250px;
+  position: relative;
+  border-style: inset;
+  border-width: 0.25rem;
+}
+
+.container3 img:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.container3 .text3 {
+  position: relative;
+  bottom: 25px;
+  left: 5px;
 }
