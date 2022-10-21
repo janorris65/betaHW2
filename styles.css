@@ -162,3 +162,15 @@ footer ul {
   flex-direction: row;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  main,
+  header ul,
+  footer ul {
+    flex-direction: column;
+  }
+  /*cheap way to correct 'stray I' next to image.*/
+  article figure img {
+    margin-right: 100px;
+  }
+}
