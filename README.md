@@ -11,3 +11,7 @@ I started with copying dev tools used in class examples to this folder for use i
 ## Roadmap
 
 As time and the class continues; this website will improve with my works. The img blocks will become cleaner. The background, stlying, borders and links will improve. I will add prototype functionality of future projects as well.
+
+## Visuals
+
+![image description](assets\Web capture_23-10-2022_31611_janorris65.github.io.jpeg)
